@@ -1,0 +1,306 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background-color: #1F2663;
+	color: white;
+	text-align: center;
+}
+
+.dropbtn {
+	background-color: #1F2663;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	margin-left:34%;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn:hover {
+	color: white;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #23376d;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #274084;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #1F2663;
+}
+
+.navbar11 {
+	background-color: #1F2663;
+	color: white;
+	padding-left: 2%;
+	/* font-weight: bold; */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+.nav-item{
+	padding-left: 60%;
+	
+}
+
+.biografia{
+	top:60%;
+}
+
+.navbar11 a {
+	color: white;
+}
+
+.navbar11 a:hover {
+	color: white;
+}
+
+.descripcion {
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: justify;
+	margin: 50px;
+	font-family: sans-serif;
+}
+
+.logo-kinal {
+	padding-left: 15%;
+}
+
+#pie {
+	padding-right: 0%;
+	/* padding-left: 35%; */
+	font-size: 15px;
+	text-align: center;
+	align-items: center;
+	/* position: flex; */
+}
+
+footer {
+	background-color: #1F2663;
+	color: white;
+	text-align: center;
+	align-items: center;
+	padding: 20%;
+	bottom: 0px;
+	width: 100%;
+}
+
+#caruselBt {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding-bottom: auto;
+}
+
+#imagenTop {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+}
+
+.cabecera {
+	display: flex;
+	margin: auto;
+}
+
+#kinal-title {
+	font-size: 50px;
+	align-items: center;
+	text-align: center;
+	padding-left: 23%;
+	padding-top: 20px;
+}
+
+#capacitate {
+	display: block;
+	margin: auto;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	font-size: 80%;
+}
+
+ul.socialIcons {
+	padding: 0 px;
+	text-align: center;
+	bottom: 85.5%;
+	right: 7%;
+}
+
+.socialIcons li {
+	background-color: yellow;
+	list-style: none;
+	display: inline-block;
+	margin: 2px;
+	border-radius: 2em;
+	overflow: hidden;
+}
+
+.socialIcons li a {
+	display: block;
+	padding: 0.4em;
+	min-width: 2.28571429em;
+	max-width: 2.28571429em;
+	height: 2.28571429em;
+	white-space: nowrap;
+	line-height: 1.5em;
+	transition: 0.5s;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: arial;
+	color: #fff;
+}
+
+.socialIcons .comprar a {
+	color: rgb(0, 0, 0);
+}
+
+.socialIcons li i {
+	margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+	max-width: 200px;
+	padding-right: 1em;
+}
+
+.socialIcons .facebook {
+	background-color: #3b5998;
+	box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .youtube {
+	background-color: #FF0000;
+	box-shadow: 0 0 16px #ff3535;
+}
+
+
+.socialIcons .instagram {
+	background-color: #cd486b;
+	box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .comprar {
+	background-color: #ffffff;
+	box-shadow: 0 0 16px #666666;
+	color: rgb(255, 255, 255);
+}
+
+.socialIcons .linkedin {
+	background-color: #007AB9;
+	box-shadow: 0 0 16px #339cd1;
+	color: rgb(255, 255, 255);
+}
+
+.socialIcons .whatsapp {
+	background-color: #2BB140;
+	box-shadow: 0 0 16px #4ed863;
+	color: rgb(255, 255, 255);
+}
+
+.titulo-card {
+	padding-top: 20px;
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	color:white;
+}
+.card-header{
+	background-color: #1F2663;
+}
+
+.btn-d{
+	border-radius: 20px 20px 20px 20px;
+	border: 2px solid #000000;
+	background-color: white;
+	position:fixed;
+	z-index: 2;
+	left:83%;
+	top:80%;
+}
+
+.btn-d:hover{
+	background-color: rgb(159, 163, 255);
+	border: rgb(159, 163, 255) 2px solid;
+}
+
+.title-card{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}
+.btn-basicos{
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 05px;
+}
+/* .basicos-btns{
+	align-items: center;
+	padding:10px;
+	margin-left: 15px;
+} */
+/* .btn-content{
+	margin-left: 05px;
+} */
+/* .btninfo{
+	margin-left: 200px;
+} */
+.btn-basicos:hover{
+	background-color: #57aeda;
+	border:#57aeda 1px solid;
+}
+/* .derecha{
+	margin-right: 12%;
+	margin-left: 50%;
+	margin-bottom: 3%;
+	margin-top: 10%;
+}
+.centro{
+	margin-left: 43.5%;
+	position: absolute;
+} */
+#derechos{
+	text-align: center;
+	font-size: 150%;
+	bottom: 0%;
+} 
+.titulo-derecha{
+	font-size:15px;
+}
+.navbar{
+	padding: -55%;
+}
